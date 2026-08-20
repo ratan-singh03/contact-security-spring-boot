@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <div class="header">
+
+        <h1>Admin Dashboard</h1>
+
+        <form method="post" action="/logout">
+            <button type="submit">Logout</button>
+        </form>
+
+    </div>
+
+    <h2>Submitted Contacts</h2>
+
+    <table>
+
+        <thead>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Message</th>
+        </tr>
+
+        </thead>
+
+        <tbody id="contactTable">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="/js/admin.js"></script>
+
+</body>
+
+</html>
